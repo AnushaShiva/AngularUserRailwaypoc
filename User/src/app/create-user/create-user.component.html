@@ -1,0 +1,65 @@
+<div class="col-md-6 offset-md-3">
+<h3>create user</h3>
+    <form (ngSubmit) = "onSubmit()">
+    
+        <div class="form-group">
+            <label> id</label>
+            <input type="number" class ="form-control" id = "id"
+                [(ngModel)] = "user.id" name = "id">
+        </div>
+    
+        <div class="form-group">
+            <label>  username </label>
+            <input type="text" class ="form-control" id = "username"
+                [(ngModel)] = "user.username" name = "username">
+        </div>
+    
+        <div class="form-group">
+            <label> name</label>
+            <input type="text" class ="form-control" id = "name"
+                [(ngModel)] = "user.name" name = "name">
+        </div>
+
+        <div class="form-group">
+            <label> age</label>
+            <input type="number" class ="form-control" id = "age"
+                [(ngModel)] = "user.age" name = "age">
+        </div>
+
+
+        <div class="form-group">
+            <label> gender</label>
+            <input type="text" class ="form-control" id = "gender"
+                [(ngModel)] = "user.gender" name = "gender">
+        </div>
+        <div class="form-group">
+            <label> email</label>
+            <input type="email" class ="form-control" id = "email"
+                [(ngModel)] = "user.email" name = "email">
+        </div>
+        <div class="form-group">
+            <label> password</label>
+            <input type="password" class ="form-control" id = "password"
+                [(ngModel)] = "user.password" name = "password">
+        </div>
+        <div class="form-group">
+            <label> phone</label>
+            <input type="tel" class ="form-control" id = "phone"
+                [(ngModel)] = "user.phone" name = "phone">
+        </div>
+        <div class="form-group">
+            <label> role</label>
+            <input type="text" class ="form-control" id = "role"
+                [(ngModel)] = "user.role" name = "role">
+        </div>
+
+        <div class="form-group">
+            <label> tid</label>
+            <input type="number" class ="form-control" id = "tid"
+                [(ngModel)] = "user.tid" name = "tid">
+        </div>   
+    
+        <button class = "btn btn-success" type ="submit">Submit</button>
+    
+    </form>
+</div>
